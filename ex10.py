@@ -1,0 +1,5 @@
+real=int(input("Digite seu saldo em R$:"))
+print('-' * 10)
+saldodolar=float(real/5.66)
+print("Com seu saldo voce consegue comprar USD {:.2f}".format(saldodolar))
+print('-' * 10)
